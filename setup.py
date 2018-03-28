@@ -1,11 +1,11 @@
 from setuptools import setup
 
-version = '0.0.1'
+version = '0.0.2'
 url = 'https://github.com/moritzmhmk/wsgi-cors-middleware'
 download_url = '{}/archive/v{}.tar.gz'.format(url, version)
 
 setup(
-    name='wsgi_cors_middleware',
+    name='wsgi-cors-middleware',
     py_modules=['wsgi_cors_middleware'],
     version=version,
     description='Cross Origin Resource Sharing (CORS) Middleware for WSGI Applications.',
